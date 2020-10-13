@@ -1,0 +1,38 @@
+<html>
+    <head>
+    <title>Voltex Middlewear test html</title>
+    <style>
+        body{
+            background-color: rgb(43, 110, 105);
+            color: white;
+            text-align: center;
+            margin: auto;
+        }
+        form{
+            display: block;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Test Voltex Middlewear</h1>
+        <form  action="http://localhost:8080/api/middlewear/data/haniduserdb/1077891518327029" method="POST" enctype="application/x-www-form-urlencoded"">
+
+              <p><label for="vm_text">What greeting do you want to say?</label>
+              <input name="vm_text" id="say" type="text"></p>
+ 
+              <p><label for="vm_text">Who do you want to say it to?</label>
+              <input name="vm_text" id="to" type="text"></p>
+
+              <p><label for="vm_file">Input a file</label>
+                <input name="vm_file" id="file" type="file">
+              </p>
+
+              <p><label for="vm_num">Number of items</label>
+                <input name="vm_num" id="num" type="number">
+              </p>
+
+              <button>Send</button>
+            </div>
+          </form>
+    </body>
+</html>
